@@ -23,6 +23,22 @@ Ext.define('Todo.view.TodoListController', {
         }, null, {
             delegate: '.fa-times'
         });
+
+        // Ext.getBody().on('keypress', function (event, target) {
+        //     if(event.getKey() === Ext.EventObject.ENTER){
+        //         me.onAddToDo();
+        //     }
+        // }, null, {
+        //     delegate: '#newTodoInput'
+        // });
+        //
+        // console.log(Ext.getCmp('newTodoInput'));
+        //
+        // Ext.getCmp('newTodoInput').on('keypress',function () {
+        //
+        //     console.log(event);
+        // });
+        // console.log(Ext.getCmp('newTodoInput').hasListeners);
     },
 
     onAddToDo: function () {

@@ -20,13 +20,15 @@ Ext.define('Todo.view.ToDoList', {
                     reference : 'newTodo',
                     xtype: 'textfield',
                     emptyText : 'Enter a new Todo Here',
+                    id:'newTodoInput',
                     enableKeyEvents: true,
                     listeners : {
-                        keypress: function(input, event){
-                            if(event.getKey()===Ext.EventObject.ENTER){
-                                input.nextSibling().fireHandler();
-                            }
-                        }
+                        // keypress: function(input, event){
+                        //     if(event.getKey()===Ext.EventObject.ENTER){
+                        //         input.nextSibling().fireHandler();
+                        //     }
+                        // }
+                        keypress: 'onAddToDo'
                     }
                 },
                 {
