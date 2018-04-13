@@ -1,0 +1,18 @@
+{
+  "rows": [
+    {
+      "id": "1",
+      "employee": "Employee One",
+      "cat": "Category One",
+      "amount": "16.33",
+      "date" : "01/02/2018"
+    },
+    {
+      "id": "1",
+      "employee": "Employee Two",
+      "cat": "Category Tree",
+      "amount": "55.66",
+      "date" : "04/02/2018"
+    }
+  ]
+}

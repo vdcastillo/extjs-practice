@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "id": "P1",
+      "productname": "Ice Pop Maker",
+      "desc": "Create fun and healthy treats anytime",
+      "price": "16.33",
+      "type" : "Bath"
+    },
+    {
+      "id": "P2",
+      "productname": "Stainless Steel Food Jar",
+      "desc": "Thermos double wall vacuum insulated food jar",
+      "price": "14.87",
+      "type" : "Kitchen"
+    },
+    {
+      "id": "P3",
+      "productname": "Shower Caddy",
+      "desc": "Non-slip grip keeps your caddy in place",
+      "price": "17.99",
+      "type" : "Food"
+    },
+    {
+      "id": "P4",
+      "productname": "VoIP Phone Adapter",
+      "desc": "Works with Up to Four VoIP Services Across One Phone Port",
+      "price": "47.50",
+      "type" : "Kitchen"
+    }
+  ]
+}
