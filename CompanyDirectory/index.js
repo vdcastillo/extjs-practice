@@ -1,4 +1,8 @@
 Ext.application({
-    name : 'CD',
+    name: 'CD',
+    autoCreateViewport: 'CD.view.main.Main',
 
-})
+    launch: function () {
+    }
+
+});

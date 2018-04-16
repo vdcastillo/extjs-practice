@@ -1,4 +1,4 @@
-Ext.define('CD.view.ContactList.Add', {
+Ext.define('CD.view.Add', {
     alias: 'widget.addContact',
     extend: 'Ext.window.Window',
     layout: 'anchor',
